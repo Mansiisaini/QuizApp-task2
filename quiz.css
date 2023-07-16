@@ -1,0 +1,46 @@
+body {
+	background-color: rgb(233, 200, 40);
+}
+
+.panel {
+	margin-top: 5%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: rgb(5, 5, 5);
+}
+
+.question {
+	font-size: 35px;
+	margin-bottom: 35px;
+	
+}
+
+.options {
+	font-size: 30px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 40px;
+	margin-top: 25px;
+	margin-bottom: 35px;
+	position: fixed;
+	top: 40%;
+	left: 40%;
+}
+
+button  {
+	margin-right: 75px;
+	margin-top: 20%;
+	font-size: 25px;
+	padding: 10px 20px;
+	background-color: #000000;
+	color: rgb(255, 255, 255);
+	border: none;
+	cursor: pointer;
+}
+
+#score {
+	font-size: 30px;
+	color: rgb(34, 0, 255);
+}
